@@ -79,22 +79,15 @@ const campanhaVacinacao = (pet) => {
     pet.push(pet)  
 }
 const darBanhoPet = (pet) => {
-    pet.servicos.push(`${pet.nome} está de banho tomado!`)
-
+    pet.servicos.push("banho Tomado")
 }
-
-const tosarPet = (pet) =>{
-    pet.servicos.push (`${pet.nome} está com cabelinho na régua`)
-}
-
-const apararUnhasPet = (pet) => {
-    pet.servicos.push (`${pet.nome} está de unhas aparadas!`)
-}
+const tosarPet
 
 //listarPets();
 //vacinarPet(pets[2])
-//campanhaVacinacao()
-darBanhoPet (pets[0])
-tosarPet (pets[0])
-apararUnhasPet (pets[0])
-console.log(pets[0])
+
+adicionarNovoPet("apollo", "cachorro", "3", "pitbull", "augusto", false)
+adicionarNovoPet("jac", "cachorro", "2", "poodle", "Alice", true)
+listarPets
+
+campanhaVacinacao();
